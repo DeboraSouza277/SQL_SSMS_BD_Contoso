@@ -1,6 +1,8 @@
 
 
 --Query para criar DimProduct
+
+CREATE VIEW as 
 SELECT 
 ProductKey,
 ProductLabel,
