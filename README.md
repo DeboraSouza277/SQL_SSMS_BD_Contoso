@@ -1,29 +1,52 @@
-# SQL_SSMS_BD_Contoso
+# Consultas ao Banco de Dados Contoso utilizando SQL, do Básico ao Avançado.
 
+### 👩🏾‍💻 Sobre o projeto
 
+Esse é um projeto é um estudo  pessoal, onde será executado comando em SQL do básico ao avançado, que tem como objetivo inicialmente documentar todos  comando que utilizo para exploração de dados  e ao final  utilizar essas Query's  para responder algumas perguntas da empresa Contoso  além de  criar uma View para ser consumida em um DataViz.
 
+## 🎲Dados do projeto
 
+No projeto foi utilizado o conjunto de dados Contoso, que  é um varejo fictício,  usado para demonstrar as funcionalidades DW/BI. Esse conjunto de dados inclui cenários de vendas/marketing, TI e finanças comuns para o setor de varejo. Além disso, esse conjunto de dados oferece grandes volumes de transações de OLTP e agregações bem estruturadas de OLAP, juntamente com dados de referência e dimensão.
 
-- Importação dos dados do SQL Server database.
+Todos os requisitos de sistemas e instruções de instalção podem ser consultados [ Aqui !](https://www.microsoft.com/en-us/download/details.aspx?id=18279) .
+
+## 📚 Conteúdo
+
+- Introdução ao SQL
   
-  Conseguimos visualizar todos as tabelas da base Contoso e com relações feitas automaticas pelo pbix.
+  SELECT / SELECT TOP/ SELECT PERCENT / SELECT DISTINCT
+  
+  ALIAS
   
   
 
-<img src="file:///C:/Users/Marcos/Pictures/BASES%20CONTOSO.JPG" title="" alt="" data-align="inline">
-
-
-
-- Analisado os dados no SQL,  trabalharemos somente com as seguintes tabelas (Foto abaixo). 
+- Ordenar e Filtrar 
   
-  No modelo abaixo com as tabelas inteiras carregado é possivel indentificar um Snowflake schema, que posteriormente será alterado para um modelo Star Schema.  
+  ORDER BY  
   
-  **Star Schema** :  todas as tabelas de dimensões necessárias têm apenas chaves estrangeiras nas tabelas de fatos que se assemelham ao um formato de estrela.
+  WHERE / BETWHEN / LIKE 
   
-  **Snowflake schema**: É um esquema de floco de neve é ​​um arranjo lógico de tabelas em um banco de dados multidimensional, de modo que o diagrama de relacionamento de entidade se assemelhe a uma forma de floco de neve, possui mais junções entre a tabela de dimensões e a tabela de fatos, portanto, o desempenho é mais lento.
+  Operadores Lógicos 
   
-  ![](C:\Users\Marcos\Pictures\BASE_CONTOSO_INCIADO.JPG)
+  
 
+- Funções de Agregação 
+  
+  SUM / COUNT / MIN / MAX / AVG
+  
+  
 
+- Views
+  
+  CREATE VIEW / ALTER VIEW / DROP VIEW
+  
+  
+* Criando uma View para o proxumo projeto em DataViz.
+  
+  Foi usado JOIN para unir as tabelas dimensões de produto, categoria e subcategoria. 
 
+## 🧰 Tecnologias
 
+- As análises foram desenvolvidos  em SQL Server Management Studio
+
+- Power Bi, para verificação da View.

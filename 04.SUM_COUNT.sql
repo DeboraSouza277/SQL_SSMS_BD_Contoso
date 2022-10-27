@@ -1,23 +1,40 @@
 
+--FUNÇÕES DE AGREGAÇÃO
+--SUM 
+--COUNT
+--MIN E MAX
+--AVG
 
---Query para criar DimProduct
+--SUM
+SELECT
+	SUM(SalesAmount) as "Total de Vendas"
+FROM FactSales
+
+
+
+--COUNT
+SELECT
+	COUNT(SalesAmount) as "Qtd de Vendas"
+FROM FactSales
+
+
+--MIN E MAX
+
 SELECT 
-ProductKey,
-ProductLabel,
-ProductName,
-ProductCategoryDescription,
-P.ProductSubcategoryKey,
-PS.ProductSubcategoryName,
-Manufacturer,
-BrandName,
-ClassName,
-StyleName,
-Weight,
-UnitCost,
-UnitPrice,
-Status
- FROM DimProduct P
-left join DimProductSubcategory PS ON  PS.ProductSubcategoryKey = P.ProductSubcategoryKey
-left join DimProductCategory PC ON  PC.ProductCategoryKey = PS.ProductCategoryKey
+MAX (UnitCost) AS 'CUSTO MAXIMO',
+MIN (UnitCost) AS 'CUSTO MINIMO'
+FROM
+DimProduct
 
-SELECT * FROM DimProductSubcategory
+
+SELECT 
+MIN (UnitCost)
+FROM
+DimProduct
+
+
+--AVG
+SELECT 
+AVG (UnitCost) AS MÉDIA
+FROM
+DimProduct
