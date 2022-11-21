@@ -12,33 +12,31 @@ Todos os requisitos de sistemas e instruções de instalção podem ser consulta
 
 ## 📚 Conteúdo
 
-- Introdução ao SQL
+
+<details>
+<summary>Introdução ao SQL</summary>
+<code style="white-space:nowrap;">SELECT / SELECT TOP/ SELECT PERCENT / SELECT DISTINCT/ ALIAS</code>
+</details>  
+
+
+<details>
+<summary>Ordenar e Filtrar</summary>
+<code style="white-space:nowrap;">ORDER BY / WHERE / BETWHEN / LIKE / Operadores Lógicos</code>
+</details>  
+
   
-  SELECT / SELECT TOP/ SELECT PERCENT / SELECT DISTINCT
-  
-  ALIAS
-  
+<details>
+<summary>Funções de Agregação </summary>
+<code style="white-space:nowrap;">SUM / COUNT / MIN / MAX / AVG</code>
+</details>  
+
+<details>
+<summary>Views </summary>
+<code style="white-space:nowrap;">CREATE VIEW / ALTER VIEW / DROP VIEW</code>
+</details>    
   
 
-- Ordenar e Filtrar 
-  
-  ORDER BY  
-  
-  WHERE / BETWHEN / LIKE 
-  
-  Operadores Lógicos 
-  
-  
 
-- Funções de Agregação 
-  
-  SUM / COUNT / MIN / MAX / AVG
-  
-  
-
-- Views
-  
-  CREATE VIEW / ALTER VIEW / DROP VIEW
   
   
 * Criando uma View para o proxumo projeto em DataViz.
