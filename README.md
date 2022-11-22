@@ -2,7 +2,7 @@
 
 ### 👩🏾‍💻 Sobre o projeto
 
-Esse é um projeto é um estudo  pessoal, onde será executado comando em SQL do básico ao avançado, que tem como objetivo inicialmente documentar todos  comando que utilizo para exploração de dados  e ao final  utilizar essas Query's  para responder algumas perguntas da empresa Contoso  além de  criar uma View para ser consumida em um DataViz.
+Esse é um projeto é um estudo de comando em SQL do básico ao avançado, que tem como objetivo documentar todos  comando que utilizo para exploração de dados e ao final  utilizar essas **Queries** para responder algumas perguntas de negócio da  empresa Contoso.  Será criado também uma uma View para ser consumida em um DataViz.
 
 ## 🎲Dados do projeto
 
@@ -12,38 +12,18 @@ Todos os requisitos de sistemas e instruções de instalção podem ser consulta
 
 ## 📚 Conteúdo
 
-- Introdução ao SQL
-  
-  SELECT / SELECT TOP/ SELECT PERCENT / SELECT DISTINCT
-  
-  ALIAS
-  
-  
+- **Introdução ao SQL** - SELECT / SELECT TOP/ SELECT PERCENT / SELECT DISTINCT/ALIAS
 
-- Ordenar e Filtrar 
-  
-  ORDER BY  
-  
-  WHERE / BETWHEN / LIKE 
-  
-  Operadores Lógicos 
-  
-  
+- **Ordenar e Filtrar** -  ORDER BY  / WHERE / BETWHEN / LIKE / Operadores Lógicos 
 
-- Funções de Agregação 
-  
-  SUM / COUNT / MIN / MAX / AVG
-  
-  
+- **Funções de Agregação** - SUM / COUNT / MIN / MAX / AVG
 
-- Views
+- **Views** - CREATE VIEW / ALTER VIEW / DROP VIEW
+
+- **Agrupamento** - GROUP BY / HAVING
+* **Criando uma View para o proxumo projeto em DataViz** - Foi usado JOIN para unir as tabelas dimensões de produto, categoria e subcategoria. 
   
-  CREATE VIEW / ALTER VIEW / DROP VIEW
   
-  
-* Criando uma View para o proxumo projeto em DataViz.
-  
-  Foi usado JOIN para unir as tabelas dimensões de produto, categoria e subcategoria. 
 
 ## 🧰 Tecnologias
 
