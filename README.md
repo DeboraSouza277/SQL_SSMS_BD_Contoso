@@ -12,6 +12,7 @@ Todos os requisitos de sistemas e instruções de instalção podem ser consulta
 
 ## 📚 Conteúdo
 
+<<<<<<< HEAD
 - **Introdução ao SQL** - SELECT / SELECT TOP/ SELECT PERCENT / SELECT DISTINCT/ALIAS
 
 - **Ordenar e Filtrar** -  ORDER BY  / WHERE / BETWHEN / LIKE / Operadores Lógicos 
@@ -22,6 +23,33 @@ Todos os requisitos de sistemas e instruções de instalção podem ser consulta
 
 - **Agrupamento** - GROUP BY / HAVING
 * **Criando uma View para o proxumo projeto em DataViz** - Foi usado JOIN para unir as tabelas dimensões de produto, categoria e subcategoria. 
+=======
+
+<details>
+<summary>Introdução ao SQL</summary>
+<code style="white-space:nowrap;">SELECT / SELECT TOP/ SELECT PERCENT / SELECT DISTINCT/ ALIAS</code>
+</details>  
+
+
+<details>
+<summary>Ordenar e Filtrar</summary>
+<code style="white-space:nowrap;">ORDER BY / WHERE / BETWHEN / LIKE / Operadores Lógicos</code>
+</details>  
+
+  
+<details>
+<summary>Funções de Agregação </summary>
+<code style="white-space:nowrap;">SUM / COUNT / MIN / MAX / AVG</code>
+</details>  
+
+<details>
+<summary>Views </summary>
+<code style="white-space:nowrap;">CREATE VIEW / ALTER VIEW / DROP VIEW</code>
+</details>    
+  
+
+
+>>>>>>> 9bba9201b67537be44cba0274127390e2052071a
   
   
 
