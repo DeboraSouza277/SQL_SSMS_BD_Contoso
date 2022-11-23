@@ -32,6 +32,11 @@ Todos os requisitos de sistemas e instruções de instalção podem ser consulta
 <code style="white-space:nowrap;">INNER JOIN / LEFT JOIN / RIGHT JOIN / CROSS JOIN / MULTIPLOS JOIN / </code>
 </details>
 
+<details>
+<summary>Union </summary>
+<code style="white-space:nowrap;">UNION / UNION ALL / </code>
+</details>
+
 ## 🧰 Tecnologias
 
 - As análises foram desenvolvidos  em SQL Server Management Studio
