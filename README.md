@@ -1,4 +1,4 @@
-# Consultas ao Banco de Dados Contoso utilizando SQL, do Básico ao Avançado.
+# # Consultas ao Banco de Dados Contoso utilizando SQL, do Básico ao Avançado.
 
 ### 👩🏾‍💻 Sobre o projeto
 
@@ -28,14 +28,10 @@ Todos os requisitos de sistemas e instruções de instalção podem ser consulta
 </details>
 
 <details>
-<summary>Views </summary>
-<code style="white-space:nowrap;">CREATE VIEW / ALTER VIEW / DROP VIEW</code>
+<summary>Join's </summary>
+<code style="white-space:nowrap;">INNER JOIN / LEFT JOIN / RIGHT JOIN / CROSS JOIN / MULTIPLOS JOIN / </code>
 </details>
-
-
 
 ## 🧰 Tecnologias
 
 - As análises foram desenvolvidos  em SQL Server Management Studio
-
-- 
