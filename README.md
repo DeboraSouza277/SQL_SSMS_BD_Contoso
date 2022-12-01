@@ -1,10 +1,10 @@
-# # Consultas ao Banco de Dados Contoso utilizando SQL, do Básico ao Avançado.
+#  Consultas ao Banco de Dados Contoso utilizando SQL, do Básico ao Avançado.
 
-### 👩🏾‍💻 Sobre o projeto
+## 👩🏾‍💻 Sobre o projeto
 
 Esse é um projeto é um estudo de comando em SQL do básico ao avançado, que tem como objetivo documentar todos  comando que utilizo para exploração de dados e ao final  utilizar essas **Queries** para responder algumas perguntas de negócio da  empresa Contoso.  Será criado também uma uma View para ser consumida em um DataViz.
 
-## 🎲Dados do projeto
+## 🎲 Dados do projeto
 
 No projeto foi utilizado o conjunto de dados Contoso, que  é um varejo fictício,  usado para demonstrar as funcionalidades DW/BI. Esse conjunto de dados inclui cenários de vendas/marketing, TI e finanças comuns para o setor de varejo. Além disso, esse conjunto de dados oferece grandes volumes de transações de OLTP e agregações bem estruturadas de OLAP, juntamente com dados de referência e dimensão.
 
