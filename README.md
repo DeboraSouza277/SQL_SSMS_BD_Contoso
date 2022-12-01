@@ -37,6 +37,13 @@ Todos os requisitos de sistemas e instruções de instalção podem ser consulta
 <code style="white-space:nowrap;">UNION / UNION ALL / </code>
 </details>
 
+
+
+<details>
+<summary>Funções Arrendondamento </summary>
+<code style="white-space:nowrap;"> CAST / FORMAT / ROUND / FLOOR / CEILING  </code>
+</details>
+
 ## 🧰 Tecnologias
 
 - As análises foram desenvolvidos  em SQL Server Management Studio
