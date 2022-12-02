@@ -1,4 +1,4 @@
-#  Consultas ao Banco de Dados Contoso utilizando SQL, do Básico ao Avançado.
+#  Consultas ao Banco de Dados Contoso utilizando SQL, do Básico ao Avançado
 
 ## 👩🏾‍💻 Sobre o projeto
 
