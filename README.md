@@ -38,11 +38,18 @@ Todos os requisitos de sistemas e instruções de instalção podem ser consulta
 </details>
 
 
-
 <details>
 <summary>Funções Arrendondamento </summary>
 <code style="white-space:nowrap;"> CAST / FORMAT / ROUND / FLOOR / CEILING  </code>
 </details>
+
+
+<details>
+<summary> Variável </summary>
+<code style="white-space:nowrap;"> DECLARE/ DECLARE + SELECT  </code>
+</details>
+
+
 
 ## 🧰 Tecnologias
 
