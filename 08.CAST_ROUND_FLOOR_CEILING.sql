@@ -1,4 +1,4 @@
---CAST - Função para converter em algum tipo de dado para outro especifico
+	--CAST - Função para converter em algum tipo de dado para outro especifico
 --Format - Formatar valores
 --ROUND - Retorna um valor decimal, arredondando de acordo com o número de casas decimais especificadas na função. 
 --ROUND (TRUNCAR) - 3º parâmetro da função, que, quando informado o valor 0, vai realizar o truncamento dos dados ao invés de arredondar, ou seja, 10.999 com 2 casas decimais ficaria 10.99.
