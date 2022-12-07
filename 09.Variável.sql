@@ -1,4 +1,4 @@
---Variáveis
+--VARIAVEL
 
 --Declate com uma variável
 
@@ -32,3 +32,20 @@ FROM DimStore
 WHERE Status = 'Off')
 
 select @LojasOff as 'Lojas_Off'
+
+
+
+-- Inserir uma valor em uma variavel e visualizar junto a outra tabela 
+
+DECLARE @ProdutoMaisVendido INT
+
+SELECT TOP (1) @ProdutoMaisVendido = ProductKey
+FROM FactSales
+ORDER BY SalesQuantity DESC
+
+--SELECT @ProdutoMaisVendido
+
+SELECT ProductKey,ProductName
+FROM DimProduct
+WHERE ProductKey = @ProdutoMaisVendido -- SELECIONA O PRODUTO MAIS VENDIDO JUNTO A OUTRA TABELA
+
