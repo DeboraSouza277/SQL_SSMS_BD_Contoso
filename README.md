@@ -50,6 +50,12 @@ Todos os requisitos de sistemas e instruções de instalção podem ser consulta
 </details>
 
 
+<details>
+<summary> Funções de String </summary>
+<code style="white-space:nowrap;"> LEN / DATALENGHT /  CONCAT / LEFT /  RIGHT </code>
+</details>
+
+
 
 ## 🧰 Tecnologias
 
