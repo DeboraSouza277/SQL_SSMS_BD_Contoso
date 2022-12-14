@@ -52,7 +52,7 @@ Todos os requisitos de sistemas e instruções de instalção podem ser consulta
 
 <details>
 <summary> Funções de String </summary>
-<code style="white-space:nowrap;"> LEN / DATALENGHT /  CONCAT / LEFT /  RIGHT </code>
+<code style="white-space:nowrap;"> LEN / DATALENGHT /  CONCAT / LEFT /  RIGHT / REPLACE </code>
 </details>
 
 
