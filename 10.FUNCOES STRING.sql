@@ -3,6 +3,7 @@
 -- CONCAT 
 -- LEFT
 -- RIGHT
+--REPLACE - Trocar textos
 
 --LEN
 SELECT LEN('Debora Souza    ')
@@ -27,3 +28,6 @@ SELECT LEFT('Debora Souza', 6)
 SELECT RIGHT('Debora Souza', 6)
 
 
+--REPLACE
+
+SELECT REPLACE('Debora Souza', 'Souza' , 'SQL')
